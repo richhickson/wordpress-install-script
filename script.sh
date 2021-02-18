@@ -2,7 +2,7 @@
 # This script was written by Richard Hickson. Twitter.com/richhickson.
 # 
 # It uses code from Michael Coigliaro - https://gist.github.com/Adirael/3383404#file-fix-wordpress-permissions-sh 
-# Based on hardening wordpress here  http://codex.wordpress.org/Hardening_WordPress#File_permissions
+# Based on hardening wordpress here  https://wordpress.org/support/article/hardening-wordpress/
 # It downloads, unzips, removes the zip and the ziped folder.
 #
 
