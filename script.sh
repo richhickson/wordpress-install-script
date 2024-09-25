@@ -36,9 +36,5 @@ find ${WP_ROOT}/wp-content -exec chgrp ${WS_GROUP} {} \;
 find ${WP_ROOT}/wp-content -type d -exec chmod 775 {} \;
 find ${WP_ROOT}/wp-content -type f -exec chmod 664 {} \;
 
-#Download and install Joost installer-basic-auth.php 
-mkdir wp-content/mu-plugins
-wget https://gist.githubusercontent.com/jdevalk/4a11ec58a7f7123bb525470c1a1454c4/raw/54be07e4aebc9e7cd99a40edf1100503b21c0a7f/installer-basic-auth.php
-
 #tidy up
 rm -rf wordpress/ && rm latest.zip
